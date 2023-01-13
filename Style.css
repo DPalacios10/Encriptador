@@ -74,9 +74,8 @@ div button{
     background: rgb(36, 32, 32);
     color: #cccccc;
     margin: 5px;
-    align-items: center;
-    justify-content: center;
-    
+    position: relative;
+    text-align: center;   
 }
 
 
