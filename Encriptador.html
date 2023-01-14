@@ -6,6 +6,7 @@
        <title>Encriptador</title>
        <link rel="stylesheet" href="reset.css">
        <link rel="stylesheet" href="Style.css">
+       <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <header>
@@ -13,14 +14,14 @@
         </header>
          <main>
             <div class="entrada">
-                <textarea class="texto-entrada" required></textarea>
+                <textarea class="texto-entrada" id="texto-entrada" required></textarea>
             </div>               
             <div class="salida">
                 <textarea class="texto-salida"></textarea>                
             </div>
             <div class="botones">
-             <button>Cifrar</button>
-             <button>descifrar</button>                
+             <button type="button" id="cifr" onclick="encriptar()">Cifrar</button>
+             <button type="button" id="desc" onclick="desencriptar()">descifrar</button>                
             </div>
         </main>
         <footer>
@@ -28,5 +29,6 @@
         </footer>
     </body>
 
-
 </html>
+
+
