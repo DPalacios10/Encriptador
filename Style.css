@@ -27,12 +27,13 @@ body{
 }
 
 .texto-entrada{
-    width: 60%;
+    float: left;
+    width: 80%;
     height: 350px;
+    margin: 10%;
     background-color: #cccccc;
     border-radius: 10px;
     text-transform: lowercase;
-    margin: 15px;
     font-size: 1.5em;
     resize: none;
 }
@@ -46,9 +47,10 @@ body{
 }
 
 .texto-salida{
-    position: relative;
-    width: 60%;
+    float: left;
+    width: 80%;
     height: 350px;
+    margin: 10%;
     background-color: #cccccc;
     border-radius: 10px;
     text-transform: lowercase;
