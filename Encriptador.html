@@ -14,14 +14,17 @@
         </header>
          <main>
             <div class="entrada">
-                <textarea class="texto-entrada" id="texto-entrada" required></textarea>
+                <textarea class="texto-entrada" id="texto-entrada" required>Ingrese el texto que desea encriptar o desencriptar aaaaa</textarea>
             </div>               
             <div class="salida">
-                <textarea class="texto-salida"></textarea>                
+                <h2 id="texto2">Ningun mensaje fue encontrado.</h2>
+                <textarea class="texto-salida" id="text-salida">No hay ningun mensaje.</textarea> 
+                <button id="copiar">COPIAR</button>               
             </div>
             <div class="botones">
-             <button type="button" id="cifr" onclick="encriptar()">Cifrar</button>
-             <button type="button" id="desc" onclick="desencriptar()">descifrar</button>                
+                <h2 class="rule">• Ingrese el texto sin acentos.</h2>
+             <button class="boton" type="button" id="cifr" onclick="encriptar()">Cifrar</button>
+             <button class="boton"type="button" id="desc" onclick="desencriptar()">descifrar</button>                
             </div>
         </main>
         <footer>
