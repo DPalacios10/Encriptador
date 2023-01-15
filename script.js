@@ -32,3 +32,10 @@ function desencriptar(){
     document.getElementById("copiar").style.display = "show";
     document.getElementById("copiar").style.display = "inherit";  
 }
+
+function copiar(){
+    let copy = document.querySelector("#text-salida");
+    copy.select();
+    document.execCommand("copy");
+    alert("¡Se copio!")
+}
