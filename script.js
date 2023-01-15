@@ -13,6 +13,7 @@ function encriptar(){
     var txtcif = txtcif.replace(/a/igm, "ai");
     var txtcif = txtcif.replace(/u/igm, "ufat");
     
+    document.getElementById("sujeto").style.display = "none";
     document.getElementById("texto2").style.display = "none";
     document.getElementById("text-salida").innerHTML = txtcif; 
     document.getElementById("copiar").style.display = "show";
@@ -27,6 +28,7 @@ function desencriptar(){
     var txtdes = txtdes.replace(/ai/igm, "a");
     var txtdes = txtdes.replace(/ufat/igm, "u");
 
+    document.getElementById("sujeto").style.display = "none";
     document.getElementById("texto2").style.display = "none";
     document.getElementById("text-salida").innerHTML = txtdes;
     document.getElementById("copiar").style.display = "show";
