@@ -5,7 +5,6 @@
 
 header{
     border: 3px solid  rgb(255, 255, 255);
-    border-radius: 10px;
     background-image: url(https://media.istockphoto.com/id/1088991402/es/foto/fondo-suave-gradiente-azul.jpg?s=612x612&w=0&k=20&c=8NbHc5ehnd56o4kq3-Ql_7_JcRFpbtyOJcFGm9GXokU=);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -43,7 +42,7 @@ body{
     width: 80%;
     height: 350px;
     margin: 5%;
-    margin-left: 8%;
+    margin-left: 10%;
     background-color: #ebebeb;
     border-radius: 10px;
     text-transform: lowercase;
@@ -163,4 +162,48 @@ body{
     transform: scale(1.1);
     border: 3px solid rgb(0, 151, 221);
     transition: 650ms;
+}
+
+@media screen and (max-width:480px){
+    header{
+        font-size: 2em;
+    }
+
+    .right{
+        float: none;
+        width: 100%;
+    }
+    
+    .left{
+        float: none;
+        width: 100%;
+    }
+    
+    .texto-entrada{
+        height: 200px;
+    }
+
+    #cifr{
+        margin-left: 10%;
+        width: 140px;
+    }
+
+    #desc{
+        font-size: 14px;
+        width: 140px;
+    }
+
+    .salida{
+        float: none;
+        border: none;
+    }
+
+    #copiar{
+        margin-left: 30%;
+    }
+
+    
+
+
+
 }
