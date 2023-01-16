@@ -4,21 +4,22 @@
 }
 
 header{
-    border: 3px solid  rgb(32, 173, 32);
+    border: 3px solid  rgb(255, 255, 255);
+    border-radius: 10px;
+    background-image: url(https://media.istockphoto.com/id/1088991402/es/foto/fondo-suave-gradiente-azul.jpg?s=612x612&w=0&k=20&c=8NbHc5ehnd56o4kq3-Ql_7_JcRFpbtyOJcFGm9GXokU=);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     text-align: center;
-    color: #cccccc;
+    color:white;
     font-size: 3em;
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px;
-    box-shadow: #000;
 }
 
-/*body{
-    background-image: url(imagenes/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}*/
+body{
+    background-color: rgb(32, 32, 32);
+}
 
 .right{
     float: left;
@@ -43,7 +44,7 @@ header{
     height: 350px;
     margin: 5%;
     margin-left: 8%;
-    background-color: #cccccc;
+    background-color: #ebebeb;
     border-radius: 10px;
     text-transform: lowercase;
     font-size: 1.5em;
@@ -58,16 +59,17 @@ header{
 
 #texto2{
     font-weight: bold;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 5%;
     font-size: 1.3em;
+    color: white;
 }
 
 .salida{
     float: right;
-    margin-top: 10%;
+    margin-top: 2%;
     margin-right: 2%;
-    border: 3px solid #010055;
+    border: 3px solid #ebebeb;
     border-radius: 10px;
     width: 100%;
     height: 80%;
@@ -96,7 +98,9 @@ header{
     font-weight: bold;
     margin: 2%;
     margin-left: 8%;
+    margin-top: 1%;
     font-size: 1.3em;
+    color: white;
 }
 
 #cifr{
@@ -104,6 +108,7 @@ header{
     font-size: 16px;
     width: 155px;
     height: 40px;
+    border-color: #ffffff;
     border-radius: 20px;
     text-transform: uppercase;
     font-weight: bold;
@@ -117,23 +122,29 @@ header{
     font-size: 16px;
     width: 155px;
     height: 40px;
+    border-color: #ffffff;
     border-radius: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    background: rgb(36, 32, 32);
+    background: rgb(65, 65, 65);
     color: #cccccc;
     margin-left: 5%;
 }
 
-.boton:hover{
+#cifr:hover{
     transform: scale(1.1);
-    border: 3px solid blue;
-    transition: 850ms;
+    border: 3px solid rgb(0, 151, 221);
+    transition: 650ms;
+}
+
+#desc:hover{
+    transform: scale(1.1);
+    border: 3px solid rgb(0, 151, 221);
+    transition: 650ms;
 }
 
 #copiar{
     float: left;
-    padding: 5px;
     font-size: 18px;
     width: 155px;
     height: 40px;
@@ -141,7 +152,15 @@ header{
     text-transform: uppercase;
     font-weight: bold;
     background: #6e6e6e;
-    border: 2px solid #000000;
-    color: #cccccc;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     display: none;
+    margin-left: 23%;
+    margin-bottom: 5%;
+}
+
+#copiar:hover{
+    transform: scale(1.1);
+    border: 3px solid rgb(0, 151, 221);
+    transition: 650ms;
 }
